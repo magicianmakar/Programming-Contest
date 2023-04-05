@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 20px 10px;
+  gap: 16px;
+  /* justify-content: space-around; */
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+
+
+/*//------First Section------//*/
+
+#section-first h1{
+    position: absolute;
+    top:200px;
+    z-index: 999;
+    color:white;
+}
+
+#section-first{
+    text-align: center;
+}
+
+#section-first h1{
+    position: absolute;
+    top:200px;
+    z-index: 999;
+    color:white;
+}
+
+#section-first blockquote{
+    position: absolute;
+    top:250px;
+    z-index: 999;
+    color:white;
+}
+
+#section-first .notion-sync-block .notion-text a{
+  position: absolute;
+  top:300px;
+  z-index: 999;
+  color:white;
+}
+
+
+#section-first .notion-sync-block {
+  position:absolute;
+  color:white;
+  position: absolute;
+  top:0;
+  z-index:999;
+}
+
+#section-first .notion-sync-block .notion-text{
+  width: 300px;
+  float: right;
+}
+
+
+/*=============First Section============*/
+
+#section-block-e19aaed191194e0a9de38f4707ee796f {
+    color:white;
+    background-color:#33ccff;
+    
+}
+
+#block-fd179ff13e6548e5b933c897c13de020{
+    font-size:2em;
+}
+#block-de615781111146a484023faa0d854bfe{
+    font-size:2em;
+}
+
+#section-block-e19aaed191194e0a9de38f4707ee796f .notion-sync-block{
+    background-color:#ff33cc;
+    padding: 2em;
+    border-radius: 5px;
+    font-size:1.5em;
+    height: 100%;
+}
+
+#section-block-e19aaed191194e0a9de38f4707ee796f .notion-sync-block a{
+    color:white;
+}
+
+#section-block-e19aaed191194e0a9de38f4707ee796f .notion-sync-block a:active{
+    color:gray;
+    font-style: italic;
+}
+
+
+#section-block-df9f09b57fda43a183d7bbfe1d771228 .notion-callout{
+    overflow: hidden;
+    border: #1ee1d6 solid 6px;
+    width: 221px;
+    height: 221px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100%;*/
+    /*border-radius: 61%;*/
+    margin: 0 auto;
+    transition: ease-in all .5s;
+    background: yellow;
+    color:black;
+}
+
+#section-block-df9f09b57fda43a183d7bbfe1d771228 .notion-callout span{
+    font-size:0.8em;
+    color:black;
+}
